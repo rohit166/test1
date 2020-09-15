@@ -1,0 +1,5 @@
+<div [@clickedState]="clickInfo2" *ngIf="clickInfo" class="st"><p>animation works!</p></div>
+<button style="margin-left: 400px;" (click)="animate()" (mouseenter)="getPos($event)">Animate me</button>
+
+
+<!-- [@clickedState]="clickInfo ? 'clicked' : 'void'" -->
